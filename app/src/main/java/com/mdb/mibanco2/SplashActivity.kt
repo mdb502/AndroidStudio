@@ -13,11 +13,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.mdb.mibanco2.screens.HomeScreen
 import com.mdb.mibanco2.screens.SplashScreen
 import com.mdb.mibanco2.ui.theme.MiBanco2Theme
 
-class MainActivity : ComponentActivity() {
+class SplashActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -25,9 +24,9 @@ class MainActivity : ComponentActivity() {
             MiBanco2Theme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color= MaterialTheme.colorScheme.background
-                ) {
-                    HomeScreen()
+                    color = MaterialTheme.colorScheme.background
+                ){
+                    SplashScreen()
                 }
             }
         }

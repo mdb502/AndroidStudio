@@ -13,6 +13,21 @@ private val lea = FontFamily(
 )
 // Set of Material typography styles to start with
 val Typography = Typography(
+    titleLarge = TextStyle(
+        fontFamily = lea,
+        fontWeight = FontWeight.Normal,
+        fontSize = 40.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = lea,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 20.sp
+    ),
+    bodyLarge = TextStyle(
+        fontFamily = lea,
+        fontWeight = FontWeight.Normal,
+        fontSize = 20.sp
+    )
 /*    bodyLarge = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
